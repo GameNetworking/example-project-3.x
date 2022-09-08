@@ -40,7 +40,7 @@ func _ready():
 		$KinematicBody.collision_layer = 0
 		$KinematicBody.collision_mask = 0
 	
-	$AvatarContainer.physics_interpolation = PHYSICS_INTERPOLATION_MODE_ON
+	$AvatarContainer.physics_interpolation_mode = PHYSICS_INTERPOLATION_MODE_ON
 
 
 # ------------------------------------------------------------------------------ Processing internal
